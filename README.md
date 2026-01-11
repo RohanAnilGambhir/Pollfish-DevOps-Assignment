@@ -31,10 +31,10 @@ Make sure you have the following installed:
  Run Local App
  Docker
  Build Docker Image
-docker build -t <image-name> .
+docker build -t < image-name > .
 
  Run Docker Container
-docker run -p 8080:8080 <image-name>
+docker run -p 8080:8080 < image-name >
 
  Terraform Infrastructure
 
