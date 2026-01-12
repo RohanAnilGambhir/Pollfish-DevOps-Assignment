@@ -24,7 +24,7 @@ Make sure you have the following installed:
 - [Terraform](https://developer.hashicorp.com/terraform)
 - Python 3.8+ & `pip`
 - Git
-- Cloud CLI (e.g., gcloud CLI)
+- Cloud CLI (e.g. gcloud CLI)
 
 ---
 
@@ -60,11 +60,15 @@ You should see a simple “Hello World” web page
 
 Build the Docker image locally.
 
-Push to a container registry GKE artifactory
+While pushing image to GCP Artifactory encountred an error, was not able to push using GCP CLI
+ERROR 
+  "failed to do request: Head "https://us-central1-docker.pkg.dev/v2/assignment-483814/gcp-artifact-repo/helloworld/blobs/sha256:cbfea27109a8b1136059a7973ccb8243889faf162ebc173a05909dcb0bec03c9": dial tcp 142.251.10.82:443: connect: connection refused"
+  Tried to fix error, no luck 
 
 Provision infrastructure with Terraform.
 
 Deploy the container to your target environment that is GKE 
+
 
 
 
